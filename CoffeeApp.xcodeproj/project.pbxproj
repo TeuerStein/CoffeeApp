@@ -14,6 +14,7 @@
 		B380C9F7254C0C9B00069BAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B380C9F6254C0C9B00069BAB /* Preview Assets.xcassets */; };
 		B380CA04254C479300069BAB /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = B380CA03254C479300069BAB /* drinks.json */; };
 		B380CA08254C481100069BAB /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380CA07254C481100069BAB /* Data.swift */; };
+		B380CA0C254C4DCC00069BAB /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380CA0B254C4DCC00069BAB /* Drink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B380C9FB254C0C9B00069BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B380CA03254C479300069BAB /* drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
 		B380CA07254C481100069BAB /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B380CA0B254C4DCC00069BAB /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				B380C9EF254C0C9800069BAB /* SceneDelegate.swift */,
 				B380C9F1254C0C9800069BAB /* ContentView.swift */,
 				B380CA07254C481100069BAB /* Data.swift */,
+				B380CA0B254C4DCC00069BAB /* Drink.swift */,
 				B380C9F3254C0C9B00069BAB /* Assets.xcassets */,
 				B380C9FB254C0C9B00069BAB /* Info.plist */,
 				B380CA03254C479300069BAB /* drinks.json */,
@@ -151,6 +154,7 @@
 				B380C9EE254C0C9800069BAB /* AppDelegate.swift in Sources */,
 				B380C9F0254C0C9800069BAB /* SceneDelegate.swift in Sources */,
 				B380C9F2254C0C9800069BAB /* ContentView.swift in Sources */,
+				B380CA0C254C4DCC00069BAB /* Drink.swift in Sources */,
 				B380CA08254C481100069BAB /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
