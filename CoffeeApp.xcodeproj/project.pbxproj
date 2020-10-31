@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3723E41254DF902004D8158 /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3723E40254DF902004D8158 /* DrinkDetail.swift */; };
 		B380C9EE254C0C9800069BAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380C9ED254C0C9800069BAB /* AppDelegate.swift */; };
 		B380C9F0254C0C9800069BAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380C9EF254C0C9800069BAB /* SceneDelegate.swift */; };
 		B380C9F2254C0C9800069BAB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380C9F1254C0C9800069BAB /* Home.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B3723E40254DF902004D8158 /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
 		B380C9EA254C0C9800069BAB /* CoffeeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B380C9ED254C0C9800069BAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B380C9EF254C0C9800069BAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				B380C9ED254C0C9800069BAB /* AppDelegate.swift */,
 				B380C9EF254C0C9800069BAB /* SceneDelegate.swift */,
 				B380C9F1254C0C9800069BAB /* Home.swift */,
+				B3723E40254DF902004D8158 /* DrinkDetail.swift */,
 				B380CA07254C481100069BAB /* Data.swift */,
 				B380CA0B254C4DCC00069BAB /* Drink.swift */,
 				B380CA0E254C4F0A00069BAB /* DrinkItem.swift */,
@@ -164,6 +167,7 @@
 				B380CA0C254C4DCC00069BAB /* Drink.swift in Sources */,
 				B380CA08254C481100069BAB /* Data.swift in Sources */,
 				B380CA0F254C4F0A00069BAB /* DrinkItem.swift in Sources */,
+				B3723E41254DF902004D8158 /* DrinkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

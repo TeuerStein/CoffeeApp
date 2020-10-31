@@ -36,6 +36,6 @@ struct DrinkItem: View {
 
 struct DrinkItem_Previews: PreviewProvider {
     static var previews: some View {
-        DrinkItem(drink: drinkData[1])
+        DrinkItem(drink: drinkData[0])
     }
 }
