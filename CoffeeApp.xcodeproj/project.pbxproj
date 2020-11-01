@@ -47,6 +47,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B33075F2254EBDE20046C69C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B380C9F1254C0C9800069BAB /* Home.swift */,
+				B3723E40254DF902004D8158 /* DrinkDetail.swift */,
+				B380CA0E254C4F0A00069BAB /* DrinkItem.swift */,
+				B380CA11254C553F00069BAB /* DrinkRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B33075F4254EBDEB0046C69C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B380CA07254C481100069BAB /* Data.swift */,
+				B380CA0B254C4DCC00069BAB /* Drink.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B33075F6254EBDFC0046C69C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B380C9ED254C0C9800069BAB /* AppDelegate.swift */,
+				B380C9EF254C0C9800069BAB /* SceneDelegate.swift */,
+				B380C9F3254C0C9B00069BAB /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		B380C9E1254C0C9800069BAB = {
 			isa = PBXGroup;
 			children = (
@@ -66,15 +96,9 @@
 		B380C9EC254C0C9800069BAB /* CoffeeApp */ = {
 			isa = PBXGroup;
 			children = (
-				B380C9ED254C0C9800069BAB /* AppDelegate.swift */,
-				B380C9EF254C0C9800069BAB /* SceneDelegate.swift */,
-				B380C9F1254C0C9800069BAB /* Home.swift */,
-				B3723E40254DF902004D8158 /* DrinkDetail.swift */,
-				B380CA07254C481100069BAB /* Data.swift */,
-				B380CA0B254C4DCC00069BAB /* Drink.swift */,
-				B380CA0E254C4F0A00069BAB /* DrinkItem.swift */,
-				B380CA11254C553F00069BAB /* DrinkRow.swift */,
-				B380C9F3254C0C9B00069BAB /* Assets.xcassets */,
+				B33075F6254EBDFC0046C69C /* SupportingFiles */,
+				B33075F2254EBDE20046C69C /* Views */,
+				B33075F4254EBDEB0046C69C /* Models */,
 				B380C9FB254C0C9B00069BAB /* Info.plist */,
 				B380CA03254C479300069BAB /* drinks.json */,
 				B380C9F5254C0C9B00069BAB /* Preview Content */,

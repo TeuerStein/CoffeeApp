@@ -22,10 +22,12 @@ struct DrinkItem: View {
             
             VStack(alignment: .leading, spacing: 5.0) {
                 Text(drink.name)
+                    .foregroundColor(.primary)
                     .font(.headline)
                 
                 Text(drink.description)
                     .font(.subheadline)
+                    .foregroundColor(.secondary)
                     .multilineTextAlignment(.leading)
                     .lineLimit(2)
                     .frame(height: 40)
