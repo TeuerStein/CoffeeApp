@@ -55,7 +55,6 @@ struct DrinkDetail: View {
         }
             .padding(.top, -120)
             .edgesIgnoringSafeArea(.top)
-//            .navigationBarHidden(true)
     }
 }
 
